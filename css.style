@@ -1,0 +1,39 @@
+body {
+      font: 30px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: white;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 40px;}
+  .bg-1 { 
+      background-color: black; /* black */
+      color: white;
+  }
+  .bg-2 { 
+      background-color: black; /* black */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: black; /* black */
+      color: white;
+  }
+  .bg-4 { 
+      background-color: black; /* black */
+      color: white;
+  }
+  .container-fluid {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  .navbar {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: white !important;
+  }
