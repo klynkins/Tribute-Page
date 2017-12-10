@@ -1,23 +1,23 @@
 body {
-background-color: black;
-color: white;
-font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, 
+h1,
 
 .carousel-inner {
-	margin: 10px;
+    margin: 10px;
 }
 
 .airbus img {
-	width: auto;
-	height: 525px;
-	max-height: 525px;
+    width: auto;
+    height: 525px;
+    max-height: 525px;
 }
 
 .carousel {
-	background-color: white;
+    background-color: white;
 }
 
 hr {
