@@ -1,120 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  
   <title>Tribute Page</title>
-  
-  <style>
-      body {
-      font: 30px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: white;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 40px;}
-  .bg-1 { 
-      background-color: black; /* black */
-      color: white;
-  }
-  .bg-2 { 
-      background-color: black; /* black */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: black; /* black */
-      color: white;
-  }
-  .bg-4 { 
-      background-color: black; /* black */
-      color: white;
-  }
-  .container-fluid {
-      padding-top: 60px;
-      padding-bottom: 60px;
-  }
-  .navbar {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: white !important;
-  }
-  </style>
-  
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
 <body>
+  <div class="container">
+  <div class="text-center">
+    <div class="container">
+      <div id="myCarousel" class="carousel slide airbus" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-md bg-dark">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
 
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#https://www.linkedin.com/in/katelynn-campbell-bishop-097643145/">LinkedIn</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#https://twitter.com/klyncampb">Twitter</a>
-    </li>
-  </ul>
-</nav>
+          <div class="item active">
+            <img src="img/airbus.jpg" alt="Airbus" style="width:100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Airbus A380</h3>
-  <img src="http://duibe7slt06r7.cloudfront.net/Live/Binaries/ww-WW/images/Airbus-A380-large_tcm87-3661.jpg" class="img-responsive img-thumbnail margin" style="display:inline" alt="Plane" width="600" height="400">
-  <h3>Worlds Biggest Airliner</h3>
-</div>
+          <div class="item">
+            <img src="img/engine.jpg" alt="engine" style="width:100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">About</h3>
-  <p>The Airbus A380 is a double-deck, wide-body, four-engine airliner manufactured by the European corporation Airbus, a subsidiary of EADS (European Aeronautic Defence and Space Company). The largest passenger airliner in the world, the A380 made its maiden flight on 27 April 2005 from Toulouse, France, and made its first commercial flight on 25 October 2007 from Singapore to Sydney with Singapore Airlines. The aircraft was known as the Airbus A3XX during much of its development phase, but the nickname Superjumbo has since become associated with it. </p>
- </div>
+          <div class="item">
+            <img src="img/wing.jpg" alt="wing" style="width:100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
 
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Specs</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>The A380-800's configuration carries 525 passengers in a three-class configuration for 370 km more range—to better reflect trends in premium-class accommodation. The design range for the −800 model is 15,700 km(8,700miles); capable of flying from Hong Kong to New York non-stop. Future variants may include an A380-900 stretch, seating about 656 passengers (or up to 960 passengers in an all-economy configuration).</p>
-      <img src="http://imgproc.airliners.net/photos/airliners/9/8/1/0957189.jpg?v=v40" class="img-responsive margin" style="width:100%" alt="Size">
+          <div class="item">
+            <img src="img/cockpit.png" alt="cockpit" style="width:100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/interior.jpg" alt="interior" style="width:100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/size.jpg" alt="size" style="width:100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+      </div>
     </div>
-    <div class="col-sm-4"> 
-      <p>The A380 is available with two types of turbofan engines, the Rolls-Royce Trent 900 or the Engine Alliance GP7000. Noise reduction was an important requirement in the A380 design, and particularly affects engine design. The A380's wing is sized for a maximum takeoff weight (MTOW) over 650 tonnes to accommodate these future versions. The wings incorporate wingtip fences that extend above and below the wing surface, these increase fuel efficiency and range by reducing induced drag. The wingtip fences also reduce wake turbulence, which endangers following aircraft.</p>
-      <img src="https://www.voestalpine.com/blog/wp-content/uploads/2015/10/voestalpine-engine-mount-01.jpg" class="img-responsive margin" style="width:100%" alt="Engine">
-    </div>
-    <div class="col-sm-4"> 
-      <p> The A380 has an improved glass cockpit, using fly-by-wire flight controls linked to side-sticks. The cockpit has eight 15 by 20 cm liquid crystal displays, all physically identical and interchangeable; comprising two primary flight displays, two navigation displays, one engine parameter display, one system display and two multi-function displays. The MFDs provide an easy-to-use interface to the flight management system—replacing three multifunction control and display units. They include QWERTY keyboards and trackballs, interfacing with a graphical "point-and-click" display system. The Network Systems Server (NSS) is the heart of A380's paperless cockpit; it eliminates bulky manuals and charts traditionally used. </p>
-      <img src="http://aerospaceengineeringblog.com/wp-content/uploads/2014/09/aircraft_cockpit_airbus_a380_800_aviation_1920x1080_41538.jpg" class="img-responsive margin" style="width:100%" alt="Cockpit">
-    </div>
+
+    <h1>Airbus A380</h1>
+    <hr>
+    <h3>Worlds Biggest Airliner</h3>
   </div>
-</div>
+  <div class="text left">
+    <p>The <a href="https://en.wikipedia.org/wiki/Airbus_A380" target = "blank">Airbus A380</a> is a double-deck, wide-body, four-engine airliner manufactured by the European corporation Airbus. The largest passenger airliner in the world, the A380 made its maiden flight
+      on 27 April 2005 from Toulouse, France, and made its first commercial flight on 25 October 2007 from Singapore to Sydney with Singapore Airlines. The aircraft was known as the Airbus A3XX during much of its development phase, but the nickname Superjumbo
+      has since become associated with it. </p>
 
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
- <a href="https://en.wikipedia.org/wiki/Airbus_A380" class="btn btn-default btn-lg">
+    <p>The A380-800's configuration carries 525 passengers in a three-class configuration for 370 km more range, to better reflect trends in premium-class accommodation. The design range for the −800 model is 15,700 km (8,700miles); capable of flying from
+      Hong Kong to New York non-stop. Future variants may include an A380-900 stretch, seating about 656 passengers (or up to 960 passengers in an all-economy configuration).</p>
+
+    <p>The A380 is available with two types of turbofan engines, the Rolls-Royce Trent 900 or the Engine Alliance GP7000. Noise reduction was an important requirement in the A380 design, and particularly affects engine design. The A380's wing is sized for
+      a maximum takeoff weight (MTOW) over 650 tonnes to accommodate these future versions. The wings incorporate wingtip fences that extend above and below the wing surface, these increase fuel efficiency and range by reducing induced drag. The wingtip
+      fences also reduce wake turbulence, which endangers following aircraft.</p>
+
+    <p> The A380 has an improved glass cockpit, using fly-by-wire flight controls linked to side-sticks. The cockpit has eight 15 by 20 cm liquid crystal displays, all physically identical and interchangeable; comprising two primary flight displays, two navigation
+      displays, one engine parameter display, one system display and two multi-function displays. The MFDs provide an easy-to-use interface to the flight management system—replacing three multifunction control and display units. They include QWERTY keyboards
+      and trackballs, interfacing with a graphical "point-and-click" display system. The Network Systems Server (NSS) is the heart of A380's paperless cockpit; it eliminates bulky manuals and charts traditionally used. </p>
+  </div>
+
+  <!-- Footer -->
+  <hr>
+  <footer class="container-fluid bg-4 text-center">
+    <a href="http://www.aircraft.airbus.com/aircraftfamilies/passengeraircraft/a380family/" class="btn btn-default btn-lg">
     <span class="glyphicon glyphicon-search"></span> More A380 Info
   </a>
-   </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-     crossorigin="anonymous"></script>
-   
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
+   <div><p class="text-center" id="foot"><small>My <a href="https://www.linkedin.com/in/katelynn-campbell-bishop-097643145/" target="blank"> LinkedIn</a>.</small></p>
+  </div>
+  </footer>
+</div>
 </body>
-</html>
- 
 
+</html>
